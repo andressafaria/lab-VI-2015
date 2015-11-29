@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+*{
+	font-family: 'lucida grande', tahoma,arial;
+	font-size: 12px;
+}
+
+#dvBase{
+	background: #f1f1f1;
+	width: 1007px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+main form{
+	background: #fff;
+	border: 1px solid #CCC;
+}
+
+main from p{
+	background: none;
+	margin: 4px 22px 30px;
+	padding: 10px;
+	border-bottom: 1px solid #CCC;
+}
+
+main form button{
+	background: #5c74a9;
+	border: 1px solid #29447E; 
+	float:right; 
+	cursor: pointer;
+	color: #fff;
+	padding: 5px 10;
+	font-weight: bolder;
+}
+
+main form button:HOVER {
+	opacity:0.8;
+}
