@@ -8,7 +8,7 @@ function fctLogin(){
 			},function(res){
 				//alert(res);
 				if(res)
-					$('main form span').html(res);
+					$('div span').html(res);
 				else
 					//$('main form span').html('logado com sucesso');
 					window.location.href='admin/';
