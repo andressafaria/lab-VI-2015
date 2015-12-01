@@ -23,14 +23,13 @@ abstract class ConDB{
 //testes
 
 //$crud = new CRUD;
-//teste insert 
-//var_dump($crud->insert('faq','pergunta=?, resposta=?', array('pergunta teste 2','resposta da pergunta teste 2'))); 
+//teste insert //$crud->insert('usuarios','nome=?, email=?, senha=?', array('andressa','andressa@faria.com','123')); 
 
 //teste select 
-//$sel=$crud->select(' * ',' usuarios ',' ',array('')); 
+//$sel=$crud->select('*','usuarios',' WHERE email=? && senha=? ',array('admin@univas.com.br', '202cb962ac59075b964b07152d234b70')); 
 					//foreach ($sel as $reg) {
 					//var_dump($reg);		
-			//	}
+				//}
 
 //teste update //$upd=$crud->update(
 					//'usuarios','nome=?, email=?, senha=? WHERE id=?', 

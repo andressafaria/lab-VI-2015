@@ -2,7 +2,7 @@
 
 <p>Painel administrativo</p>
 
-<button onclick="btnInserir()">Inseir</button>
+<button onclick="btnInserir()">Inseir JS</button>
 
 
 <?php require_once '../footer.php';?>
