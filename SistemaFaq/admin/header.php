@@ -29,7 +29,7 @@
 					<div class="form-group">
 
 
-						<button onclick="fctLogin()" class="btn btn-default">Logout</button>
+						<button onclick="window.history.back();" class="btn btn-default">Logout</button>
 				
 				</form>
 			</div>
