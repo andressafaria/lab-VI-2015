@@ -1,18 +1,18 @@
-$(document).ready(function(){
-	$('#inserir').click(function(){
-		alert("entrou");
-		var dados = $('#cadFaq').serialize();
-		
-		$.ajax({
-			type: 'POST',
-			dataType: 'json',
-			url: '../require/jp/jpInsert.php',
-			async:'true',
-			data: dados,
-			success: function(res){
-				alert('foi');
+function inserir(){
+	alert('testando');
+	
+	$.post('../require/jp/jpInsert.php',
+			{
+				pergunta :$('#insertPergunta').val(),
+				resposta :$('#insertResposta').val()
+			},function(res){
+				alert(res);
+				if(res)
+					$('div span').html(res);
+				else
+					//$('main form span').html('logado com sucesso');
+					window.location.href='admin/';
 				
-			}
-		});
-	});
-})
+			});
+	
+}
